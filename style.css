@@ -1,0 +1,339 @@
+/* Fonts */
+@font-face {
+    font-family: "CrimsonPro" ;
+    src: url("fonts/CrimsonPro-Regular.ttf");
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fonts/FontAwesome.otf");
+}
+@font-face {
+    font-family: "LatoRegular";
+    src: url("fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "PeInter";
+    src: url("fonts/Pe-icon-set-interface.ttf");
+}
+@font-face {
+    font-family: "WorkBold";
+    src: url("fonts/WorkSans-Bold.ttf");
+}
+@font-face {
+    font-family: "WorkMedium";
+    src: url("fonts/WorkSans-Medium.ttf");
+}
+body{
+    margin: 0;
+    color: #003349;
+    background-color: #fffff5;
+
+}
+.mainWrap{
+    margin-right: auto; /* centers content */
+    margin-left: auto; /* centers content */
+    max-width: 1400px; /* sets width of content */
+    /* padding-right: 20px ;
+    padding-left: 20px; */
+    /* width: 90%; */
+}
+.wrapper {
+    margin-right: auto; /* centers content */
+    margin-left: auto; /* centers content */
+    max-width: 1100px; /* sets width of content */
+    padding-right: 20px; 
+    padding-left: 20px;
+    /* width: 90%; */
+  }
+
+.header{
+    background-color: #003349;
+
+}
+.headerLogo{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.headBackground{
+    background: url("assets/tealwave.png") no-repeat center top;
+    background-size: cover;
+    height: 922px;
+}
+
+.head{
+text-align: center;
+    padding-top: 50px;
+    /* height: 900px; */
+}
+.crimson{
+    font-family: "CrimsonPro";
+    font-size: 40px;
+}
+.space{
+    max-width: 890px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mediumP{
+    font-family: "WorkMedium";
+}
+.emer{
+    font-family: "WorkBold";
+}
+/* .oranges{
+    padding-top: 550px;
+} */
+.oranges{
+    float: right;
+    z-index: auto;
+    padding-top: 544px;
+    /* padding-bottom: -552px; */
+    margin-bottom: -553px;
+    max-width: 135px;
+    /* padding-bottom: 500px; */
+}
+.hand{
+    float: right;
+    /* max-width: 70%; */
+    z-index: auto;
+    margin-bottom: -585px;
+    /* margin-right: 0;
+    margin-left:auto; */
+}
+.latoP{
+    font-family: "LatoRegular" ;
+
+    /* font-size: 16px; */
+}
+.boldButton{
+    font-family: "WorkBold";
+}
+
+.relief{
+    /* margin-top: -100px; */
+    /* padding-top: 200px; */
+    padding-bottom: 150px ;
+    /* width: 650px ; */
+    margin-right: 46%;
+    margin-left:auto ;
+    padding-left: 40px;
+    z-index: 7;
+    /* margin-left: 46%;
+    margin-right: auto; */
+}
+.magenta{
+    color: #e3c1e5;
+    text-decoration: none;
+}
+.magButton{
+    background-color: #e3c1e5;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 6px;
+    width: 400px;
+}
+.bluePack{
+    padding-top: 143px;
+}
+.orangeSp{
+padding-top: 504px;
+padding-left: 202px;
+}
+
+.sideLine{
+    /* margin-left: 350px; */
+    border-left: #4D646C 1px solid;
+    /* margin-top: -1012px; */
+}
+.sideSpace{
+    padding-left: 30px;
+}
+.counseling{
+    padding-bottom: 50px;
+    max-width:615px;
+}
+.softBlue{
+    color: #abbbed;
+    text-decoration: none;
+}
+.sBlueButton{
+    background-color: #abbbed;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 0px;
+    width: 400px;
+}
+.walkIn{
+    padding-bottom: 50px;
+    max-width: 615px;
+}
+.lightGreen{
+    color: #b7e3dd;
+    text-decoration: none;
+}
+.lGreenButton{
+    background-color: #b7e3dd;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 0px;
+    width: 400px;
+}
+.kidHelp{
+    padding-bottom: 50px;
+    max-width: 615px;
+}
+.blue{
+    color: #a2c6dd;
+    text-decoration: none;
+}
+.blueButton{
+    background-color: #a2c6dd;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 0px;
+    width: 400px;
+    /* padding: 10px 100px; */
+}
+.family{
+    padding-bottom: 50px;
+    max-width: 615px;
+}
+.orange{
+    color: #ffe2ce;
+    text-decoration: none;
+}
+.orangeButton{
+    background-color: #ffe2ce;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 0px;
+    width: 400px;
+}
+.purpSpeck{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.greenSpeck{
+    padding-top: 190px;
+    padding-bottom: 200px;
+}
+.pinkPack{
+    padding-top: 75px;
+}
+.oCrop{
+    float: right;
+    padding-right: 0px;
+   
+}
+.pCloud{
+    float: right;
+    padding-right: 0px;
+   
+}
+.hcSize{
+    /* max-width: 400px; */
+    /* width: 55%; */
+    padding-top: 150px;
+    z-index: auto;
+    margin-right: 49%;
+    margin-left: auto ;
+}
+
+.bounce{
+    padding-bottom: 206px;
+    margin-left: 51%;
+    margin-right: auto;
+    padding-right: 40px;
+    margin-top: -450px;
+}
+
+
+.pink{
+    color: #ffc9c8;
+    text-decoration: none;
+}
+.pinkButton{
+    background-color: #ffc9c8;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 0px;
+    width: 400px;
+}
+
+
+
+
+
+.board{
+    /* height: 656px; */
+    background-color: #144E63;
+    z-index: 7;
+}
+.boardTitle{
+    text-align: center;
+    font-family: "CrimsonPro";
+    color: #a2c6dd;
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.center{
+    text-align: center;
+}
+/* th{
+    width: 200px;
+} */
+.boardPic{
+    border: 7px solid #a2c6dd;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+}
+.name{
+    color: white;
+    font-family: "CrimsonPro";
+    font-size: 26px;
+}
+.edu{
+    color: #BCBCC1;
+    font-family: "LatoRegular";
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.description{
+    color: white;
+    font-family: "WorkMedium";
+    font-size: 13px;
+    /* width: 100px; */
+}
+
+.bottom{
+    padding-top: 50px;
+    text-align: center;
+}
+.bWrap{
+    max-width: 892px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.crimBottom{
+    font-family: "CrimsonPro";
+    font-size: 60px;
+}
+.bottomP{
+    padding-top: 20px;
+    font-family: "WorkMedium";
+    font-size: 20px;
+}
+.bLogo{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.crimP{
+    font-family: "CrimsonPro";
+    font-size: 28px;
+    color: #4D646C ;
+    padding-bottom: 40px;
+}
