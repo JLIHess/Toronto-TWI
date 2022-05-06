@@ -92,6 +92,7 @@ body{
 }
 .boldButton{
     font-family: "WorkBold";
+    color: #01222D;
 }
 
 .relief{
@@ -187,6 +188,7 @@ body{
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
+    color: #01222D;
 }
 .purpSpeck{
     padding-top: 100px;
