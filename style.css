@@ -113,6 +113,7 @@ body{
     border-radius: 1rem;
     padding: 10px 6px;
     width: 400px;
+    color: #01222D;
 }
 .bluePack{
     padding-top: 143px;
@@ -143,6 +144,7 @@ body{
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
+    color: #01222D;
 }
 .walkIn{
     padding-bottom: 50px;
@@ -158,6 +160,7 @@ body{
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
+    color: #01222D;
 }
 .kidHelp{
     padding-bottom: 50px;
@@ -173,6 +176,7 @@ body{
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
+    color: #01222D;
 }
 .family{
     padding-bottom: 50px;
@@ -227,6 +231,7 @@ body{
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
+    color: #01222D;
 }
 .board{
     background-color: #144E63;
