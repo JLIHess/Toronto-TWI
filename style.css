@@ -25,7 +25,6 @@
 }
 body{
     margin: 0;
-    color: #003349;
     background-color: #fffff5;
 
 }
@@ -33,9 +32,6 @@ body{
     margin-right: auto; /* centers content */
     margin-left: auto; /* centers content */
     max-width: 1400px; /* sets width of content */
-    /* padding-right: 20px ;
-    padding-left: 20px; */
-    /* width: 90%; */
 }
 .wrapper {
     margin-right: auto; /* centers content */
@@ -44,11 +40,9 @@ body{
     padding-right: 20px; 
     padding-left: 20px;
     width: 90%;
-  }
-
+}
 .header{
     background-color: #003349;
-
 }
 .headerLogo{
     text-align: center;
@@ -60,11 +54,11 @@ body{
     background-size: cover;
     height: 922px;
 }
-
 .head{
-text-align: center;
+    text-align: center;
     padding-top: 50px;
-    /* height: 900px; */
+    color: #003349;
+
 }
 .crimson{
     font-family: "CrimsonPro";
@@ -81,46 +75,32 @@ text-align: center;
 .emer{
     font-family: "WorkBold";
 }
-/* .oranges{
-    padding-top: 550px;
-} */
 .oranges{
     float: right;
     z-index: auto;
     padding-top: 544px;
-    /* padding-bottom: -552px; */
     margin-bottom: -553px;
     max-width: 135px;
-    /* padding-bottom: 500px; */
 }
 .hand{
     float: right;
-    /* max-width: 70%; */
     z-index: auto;
     margin-bottom: -585px;
-    /* margin-right: 0;
-    margin-left:auto; */
 }
 .latoP{
     font-family: "LatoRegular" ;
-
-    /* font-size: 16px; */
 }
 .boldButton{
     font-family: "WorkBold";
 }
 
 .relief{
-    /* margin-top: -100px; */
-    /* padding-top: 200px; */
     padding-bottom: 150px ;
-    /* width: 650px ; */
     margin-right: 46%;
     margin-left:auto ;
     padding-left: 40px;
     z-index: 7;
-    /* margin-left: 46%;
-    margin-right: auto; */
+    color: #01222D;
 }
 .magenta{
     color: #e3c1e5;
@@ -137,17 +117,16 @@ text-align: center;
     padding-top: 143px;
 }
 .orangeSp{
-padding-top: 504px;
-padding-left: 202px;
+    padding-top: 504px;
+    padding-left: 202px;
 }
 
 .sideLine{
-    /* margin-left: 350px; */
     border-left: #4D646C 1px solid;
-    /* margin-top: -1012px; */
 }
 .sideSpace{
     padding-left: 30px;
+    color: #01222D;
 }
 .counseling{
     padding-bottom: 50px;
@@ -193,7 +172,6 @@ padding-left: 202px;
     border-radius: 1rem;
     padding: 10px 0px;
     width: 400px;
-    /* padding: 10px 100px; */
 }
 .family{
     padding-bottom: 50px;
@@ -224,37 +202,19 @@ padding-left: 202px;
 .oCrop{
     float: right;
     padding-right: 0px;
-   
 }
 .pCloud{
     float: right;
     padding-right: 0px;
-   
 }
 .topSpace{
     padding-top: 100px;
 }
-.hcSize{
-    /* max-width: 400px; */
-    /* width: 55%; */
-    /* padding-top: 150px;
-    z-index: auto;
-    margin-right: 49%;
-    margin-left: auto ; */
-}
-
 .bounce{
     padding-bottom: 50px;
     max-width: 615px;
     padding-left: 40px;
-    /* padding-bottom: 206px;
-    margin-left: 51%;
-    margin-right: auto;
-    padding-right: 40px; */
-    /* margin-top: -450px; */
 }
-
-
 .pink{
     color: #ffc9c8;
     text-decoration: none;
@@ -266,13 +226,7 @@ padding-left: 202px;
     padding: 10px 0px;
     width: 400px;
 }
-
-
-
-
-
 .board{
-    /* height: 656px; */
     background-color: #144E63;
     z-index: 7;
 }
@@ -287,17 +241,10 @@ padding-left: 202px;
 .center{
     text-align: center;
 }
-/* th{
-    width: 200px;
-} */
 .boardPic{
     border: 7px solid #a2c6dd;
     border-radius: 50%;
-    /* max-width: 354px; */
-    /* width: 160px;
-    height: 160px; */
 }
-
 .name{
     color: white;
     font-family: "CrimsonPro";
@@ -313,9 +260,7 @@ padding-left: 202px;
     color: white;
     font-family: "WorkMedium";
     font-size: 13px;
-    /* width: 100px; */
 }
-
 .bottom{
     padding-top: 50px;
     text-align: center;
@@ -325,7 +270,6 @@ padding-left: 202px;
     margin-right: auto;
     margin-left: auto;
 }
-
 .crimBottom{
     font-family: "CrimsonPro";
     font-size: 60px;
@@ -346,8 +290,33 @@ padding-left: 202px;
     padding-bottom: 40px;
 }
 
-@media (max-width:585.98px){
+@media (max-width:575.98px){
     .img-fluid.boardPic{
         max-width:355px;
+    }
+    .sideLine{
+        border-left: none;
+    }
+    .sideSpace{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .magButton{
+        width: 350px;
+    }
+    .sBlueButton{
+        width: 350px;
+    }
+    .lGreenButton{
+        width: 350px;
+    }
+    .blueButton{
+        width: 350px;
+    }
+    .orangeButton{
+        width: 350px;
+    }
+    .pinkButton{
+        width: 350px;
     }
 }
