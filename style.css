@@ -32,6 +32,8 @@ body{
     margin-right: auto; /* centers content */
     margin-left: auto; /* centers content */
     max-width: 1400px; /* sets width of content */
+    /* padding-right: 20px;
+    padding-left: 20px; */
 }
 .wrapper {
     margin-right: auto; /* centers content */
@@ -115,6 +117,17 @@ body{
     width: 400px;
     color: #01222D;
 }
+.buttonText{
+    padding-top: 2px;
+}
+.arrowS{
+    margin-left: -100px;
+}
+.arrow{
+    height: 30px;
+    width: 49px;
+}
+
 .bluePack{
     padding-top: 143px;
 }
@@ -219,7 +232,7 @@ body{
 .bounce{
     padding-bottom: 50px;
     max-width: 615px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .pink{
     color: #ffc9c8;
@@ -236,6 +249,7 @@ body{
 .board{
     background-color: #144E63;
     z-index: 7;
+
 }
 .boardTitle{
     text-align: center;
@@ -298,8 +312,14 @@ body{
 }
 
 @media (max-width:575.98px){
-    .img-fluid.boardPic{
-        max-width:355px;
+    .relief{
+        margin-right: 0%;
+        margin-left: 0%;
+        padding-left: 30px;
+        padding-bottom: 60px;
+    }
+    .magButton{
+        width: 350px;
     }
     .sideLine{
         border-left: none;
@@ -308,8 +328,8 @@ body{
         padding-left: 30px;
         padding-right: 30px;
     }
-    .magButton{
-        width: 350px;
+    .boldButton{
+        font-size: 12px ;
     }
     .sBlueButton{
         width: 350px;
@@ -325,5 +345,19 @@ body{
     }
     .pinkButton{
         width: 350px;
+    }
+    .topSpace{
+        padding-top: 10px;
+    }
+    .board{
+        padding-bottom: 70px;
+    }
+    .bWrap{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .img-fluid.boardPic{
+        max-width:355px;
     }
 }
