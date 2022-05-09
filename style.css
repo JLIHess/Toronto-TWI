@@ -1,115 +1,143 @@
 /* Fonts */
 @font-face {
-    font-family: "CrimsonPro" ;
+    font-family: "CrimsonPro";
     src: url("fonts/CrimsonPro-Regular.ttf");
 }
+
 @font-face {
     font-family: "FontAwesome";
     src: url("fonts/FontAwesome.otf");
 }
+
 @font-face {
     font-family: "LatoRegular";
     src: url("fonts/Lato-Regular.ttf");
 }
+
 @font-face {
     font-family: "PeInter";
     src: url("fonts/Pe-icon-set-interface.ttf");
 }
+
 @font-face {
     font-family: "WorkBold";
     src: url("fonts/WorkSans-Bold.ttf");
 }
+
 @font-face {
     font-family: "WorkMedium";
     src: url("fonts/WorkSans-Medium.ttf");
 }
-body{
+
+body {
     margin: 0;
     background-color: #fffff5;
 
 }
-.mainWrap{
-    margin-right: auto; /* centers content */
-    margin-left: auto; /* centers content */
-    max-width: 1400px; /* sets width of content */
+
+.mainWrap {
+    margin-right: auto;
+    /* centers content */
+    margin-left: auto;
+    /* centers content */
+    max-width: 1400px;
+    /* sets width of content */
     /* padding-right: 20px;
     padding-left: 20px; */
 }
+
 .wrapper {
-    margin-right: auto; /* centers content */
-    margin-left: auto; /* centers content */
-    max-width: 1100px; /* sets width of content */
-    padding-right: 20px; 
+    margin-right: auto;
+    /* centers content */
+    margin-left: auto;
+    /* centers content */
+    max-width: 1100px;
+    /* sets width of content */
+    padding-right: 20px;
     padding-left: 20px;
     width: 90%;
 }
-.header{
+
+.header {
     background-color: #003349;
 }
-.headerLogo{
+
+.headerLogo {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.headBackground{
+
+.headBackground {
     background: url("assets/tealwave.png") no-repeat center top;
     background-size: cover;
     height: 922px;
 }
-.head{
+
+.head {
     text-align: center;
     padding-top: 50px;
     color: #003349;
 
 }
-.crimson{
+
+.crimson {
     font-family: "CrimsonPro";
     font-size: 40px;
 }
-.space{
+
+.space {
     max-width: 890px;
     margin-right: auto;
     margin-left: auto;
 }
-.mediumP{
+
+.mediumP {
     font-family: "WorkMedium";
 }
-.emer{
+
+.emer {
     font-family: "WorkBold";
 }
-.oranges{
+
+.oranges {
     float: right;
     z-index: auto;
     padding-top: 544px;
     margin-bottom: -553px;
     max-width: 135px;
 }
-.hand{
+
+.hand {
     float: right;
     z-index: auto;
     margin-bottom: -585px;
 }
-.latoP{
-    font-family: "LatoRegular" ;
+
+.latoP {
+    font-family: "LatoRegular";
 }
-.boldButton{
+
+.boldButton {
     font-family: "WorkBold";
     color: #01222D;
 }
 
-.relief{
-    padding-bottom: 150px ;
+.relief {
+    padding-bottom: 150px;
     margin-right: 46%;
-    margin-left:auto ;
+    margin-left: auto;
     padding-left: 40px;
     z-index: 7;
     color: #01222D;
 }
-.magenta{
+
+.magenta {
     color: #e3c1e5;
     text-decoration: none;
 }
-.magButton{
+
+.magButton {
     background-color: #e3c1e5;
     border: none;
     border-radius: 1rem;
@@ -117,41 +145,53 @@ body{
     width: 400px;
     color: #01222D;
 }
-.buttonText{
+
+.buttonText {
     padding-top: 2px;
 }
-.arrowS{
+
+.arrowS {
     margin-left: -100px;
 }
-.arrow{
+
+.arrowW {
+    margin: -48px;
+}
+
+.arrow {
     height: 30px;
     width: 49px;
 }
 
-.bluePack{
+.bluePack {
     padding-top: 143px;
 }
-.orangeSp{
+
+.orangeSp {
     padding-top: 504px;
     padding-left: 202px;
 }
 
-.sideLine{
+.sideLine {
     border-left: #4D646C 1px solid;
 }
-.sideSpace{
+
+.sideSpace {
     padding-left: 30px;
     color: #01222D;
 }
-.counseling{
+
+.counseling {
     padding-bottom: 50px;
-    max-width:615px;
+    max-width: 615px;
 }
-.softBlue{
+
+.softBlue {
     color: #abbbed;
     text-decoration: none;
 }
-.sBlueButton{
+
+.sBlueButton {
     background-color: #abbbed;
     border: none;
     border-radius: 1rem;
@@ -159,15 +199,18 @@ body{
     width: 400px;
     color: #01222D;
 }
-.walkIn{
+
+.walkIn {
     padding-bottom: 50px;
     max-width: 615px;
 }
-.lightGreen{
+
+.lightGreen {
     color: #b7e3dd;
     text-decoration: none;
 }
-.lGreenButton{
+
+.lGreenButton {
     background-color: #b7e3dd;
     border: none;
     border-radius: 1rem;
@@ -175,15 +218,18 @@ body{
     width: 400px;
     color: #01222D;
 }
-.kidHelp{
+
+.kidHelp {
     padding-bottom: 50px;
     max-width: 615px;
 }
-.blue{
+
+.blue {
     color: #a2c6dd;
     text-decoration: none;
 }
-.blueButton{
+
+.blueButton {
     background-color: #a2c6dd;
     border: none;
     border-radius: 1rem;
@@ -191,15 +237,18 @@ body{
     width: 400px;
     color: #01222D;
 }
-.family{
+
+.family {
     padding-bottom: 50px;
     max-width: 615px;
 }
-.orange{
+
+.orange {
     color: #ffe2ce;
     text-decoration: none;
 }
-.orangeButton{
+
+.orangeButton {
     background-color: #ffe2ce;
     border: none;
     border-radius: 1rem;
@@ -207,38 +256,47 @@ body{
     width: 400px;
     color: #01222D;
 }
-.purpSpeck{
+
+.purpSpeck {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.greenSpeck{
+
+.greenSpeck {
     padding-top: 190px;
     padding-bottom: 200px;
 }
-.pinkPack{
+
+.pinkPack {
     padding-top: 75px;
 }
-.oCrop{
+
+.oCrop {
     float: right;
     padding-right: 0px;
 }
-.pCloud{
+
+.pCloud {
     float: right;
     padding-right: 0px;
 }
-.topSpace{
+
+.topSpace {
     padding-top: 100px;
 }
-.bounce{
+
+.bounce {
     padding-bottom: 50px;
     max-width: 615px;
     padding-left: 30px;
 }
-.pink{
+
+.pink {
     color: #ffc9c8;
     text-decoration: none;
 }
-.pinkButton{
+
+.pinkButton {
     background-color: #ffc9c8;
     border: none;
     border-radius: 1rem;
@@ -246,12 +304,14 @@ body{
     width: 400px;
     color: #01222D;
 }
-.board{
+
+.board {
     background-color: #144E63;
     z-index: 7;
 
 }
-.boardTitle{
+
+.boardTitle {
     text-align: center;
     font-family: "CrimsonPro";
     color: #a2c6dd;
@@ -259,105 +319,144 @@ body{
     padding-top: 70px;
     padding-bottom: 40px;
 }
-.center{
+
+.center {
     text-align: center;
 }
-.boardPic{
+
+.boardPic {
     border: 7px solid #a2c6dd;
     border-radius: 50%;
 }
-.name{
+
+.name {
     color: white;
     font-family: "CrimsonPro";
     font-size: 26px;
 }
-.edu{
+
+.edu {
     color: #BCBCC1;
     font-family: "LatoRegular";
     font-size: 14px;
     padding-bottom: 25px;
 }
-.description{
+
+.description {
     color: white;
     font-family: "WorkMedium";
     font-size: 13px;
 }
-.bottom{
+
+.bottom {
     padding-top: 50px;
     text-align: center;
 }
-.bWrap{
+
+.bWrap {
     max-width: 892px;
     margin-right: auto;
     margin-left: auto;
 }
-.crimBottom{
+
+.crimBottom {
     font-family: "CrimsonPro";
     font-size: 60px;
 }
-.bottomP{
+
+.bottomP {
     padding-top: 20px;
     font-family: "WorkMedium";
     font-size: 20px;
 }
-.bLogo{
+
+.bLogo {
     padding-top: 60px;
     padding-bottom: 30px;
 }
-.crimP{
+
+.crimP {
     font-family: "CrimsonPro";
     font-size: 28px;
-    color: #4D646C ;
+    color: #4D646C;
     padding-bottom: 40px;
 }
 
-@media (max-width:575.98px){
-    .relief{
+.cents {
+    text-align: center;
+}
+
+.icons {
+    /* text-align: center; */
+    width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (max-width:575.98px) {
+    .relief {
         margin-right: 0%;
         margin-left: 0%;
         padding-left: 30px;
         padding-bottom: 60px;
     }
-    .magButton{
+
+    .magButton {
         width: 350px;
     }
-    .sideLine{
+
+    .sideLine {
         border-left: none;
     }
-    .sideSpace{
+
+    .sideSpace {
         padding-left: 30px;
         padding-right: 30px;
     }
-    .boldButton{
-        font-size: 12px ;
+
+    .boldButton {
+        font-size: 12px;
     }
-    .sBlueButton{
+
+    .arrow {
+        height: 24px;
+    }
+
+    .sBlueButton {
         width: 350px;
     }
-    .lGreenButton{
+
+    .lGreenButton {
         width: 350px;
     }
-    .blueButton{
+
+    .blueButton {
         width: 350px;
     }
-    .orangeButton{
+
+    .orangeButton {
         width: 350px;
     }
-    .pinkButton{
+
+    .pinkButton {
         width: 350px;
     }
-    .topSpace{
+
+    .topSpace {
         padding-top: 10px;
     }
-    .board{
+
+    .board {
         padding-bottom: 70px;
     }
-    .bWrap{
+
+    .bWrap {
         padding-right: 20px;
         padding-left: 20px;
     }
 
-    .img-fluid.boardPic{
-        max-width:355px;
+    .img-fluid.boardPic {
+        max-width: 355px;
     }
 }
