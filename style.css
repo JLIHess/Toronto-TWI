@@ -37,56 +37,53 @@ body {
 
 .mainWrap {
     margin-right: auto;
-    /* centers content */
     margin-left: auto;
-    /* centers content */
     max-width: 1400px;
-    /* sets width of content */
-    /* padding-right: 20px;
-    padding-left: 20px; */
 }
 
 .wrapper {
     margin-right: auto;
-    /* centers content */
     margin-left: auto;
-    /* centers content */
-    max-width: 1100px;
-    /* sets width of content */
+    max-width: 1400px;
     padding-right: 20px;
     padding-left: 20px;
     width: 90%;
 }
-
+.wrapperT {
+    /* margin-left: 10%; */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    /* padding-left: 100px;
+    padding-right: 100px ; */
+}
 .header {
     background-color: #003349;
 }
-
 .headerLogo {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .headBackground {
-    background: url("assets/tealwave.png") no-repeat center top;
+    background: url("assets/tealwaveb.png") no-repeat center top;
     background-size: cover;
     height: 922px;
 }
-
 .head {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
     color: #003349;
-
 }
-
 .crimson {
     font-family: "CrimsonPro";
     font-size: 40px;
 }
-
+.cr{
+    padding-top: 30px;
+}
 .space {
+    padding-top: 20px;
     max-width: 890px;
     margin-right: auto;
     margin-left: auto;
@@ -101,18 +98,26 @@ body {
 }
 
 .oranges {
-    float: right;
+    margin-right: 0;
+    margin-left: auto;
+    /* float: right; */
     z-index: auto;
-    padding-top: 544px;
-    margin-bottom: -553px;
-    max-width: 135px;
 }
-
 .hand {
-    float: right;
-    z-index: auto;
-    margin-bottom: -585px;
+    /* float: right; */
+    /* right: 0; */
+    /* margin-right: 0;
+    margin-left: 99%; */
+    /* float: right; */
+    /* z-index: -1; */
+    width: 60%;
+    margin-top: -2649px;
+    /* margin-bottom: -585px; */
 }
+.hands{
+    margin-top: -531px;
+
+} 
 
 .latoP {
     font-family: "LatoRegular";
@@ -124,6 +129,7 @@ body {
 }
 
 .relief {
+    margin-top: -150px;
     padding-bottom: 150px;
     margin-right: 46%;
     margin-left: auto;
@@ -140,7 +146,7 @@ body {
 .magButton {
     background-color: #e3c1e5;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 6px;
     width: 400px;
     color: #01222D;
@@ -164,7 +170,7 @@ body {
 }
 
 .bluePack {
-    padding-top: 143px;
+    padding-top: 200px;
 }
 
 .orangeSp {
@@ -175,7 +181,9 @@ body {
 .sideLine {
     border-left: #4D646C 1px solid;
 }
-
+.services{
+    z-index: auto;
+}
 .sideSpace {
     padding-left: 30px;
     color: #01222D;
@@ -194,7 +202,7 @@ body {
 .sBlueButton {
     background-color: #abbbed;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 0px;
     width: 400px;
     color: #01222D;
@@ -213,7 +221,7 @@ body {
 .lGreenButton {
     background-color: #b7e3dd;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 0px;
     width: 400px;
     color: #01222D;
@@ -228,47 +236,47 @@ body {
     color: #a2c6dd;
     text-decoration: none;
 }
-
 .blueButton {
     background-color: #a2c6dd;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 0px;
     width: 400px;
     color: #01222D;
 }
-
 .family {
     padding-bottom: 50px;
     max-width: 615px;
 }
-
 .orange {
     color: #ffe2ce;
     text-decoration: none;
 }
-
 .orangeButton {
     background-color: #ffe2ce;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 0px;
     width: 400px;
     color: #01222D;
 }
 
 .purpSpeck {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-left: 620px;
+    margin-top: -151px;
+    padding-bottom: 51px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
 
 .greenSpeck {
-    padding-top: 190px;
-    padding-bottom: 200px;
+    padding-left: 620px;
+    margin-top: -114px;
+    padding-bottom: 17px;
 }
 
 .pinkPack {
-    padding-top: 75px;
+    padding-top: 752px;
 }
 
 .oCrop {
@@ -299,7 +307,7 @@ body {
 .pinkButton {
     background-color: #ffc9c8;
     border: none;
-    border-radius: 1rem;
+    border-radius: 4rem;
     padding: 10px 0px;
     width: 400px;
     color: #01222D;
@@ -322,17 +330,21 @@ body {
 
 .center {
     text-align: center;
+    /* max-width: 162PX; */
 }
-
+/* .bpic{
+    max-width: 160px;
+} */
 .boardPic {
     border: 7px solid #a2c6dd;
     border-radius: 50%;
+    /* max-width: 162px; */
 }
 
 .name {
     color: white;
     font-family: "CrimsonPro";
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .edu {
@@ -384,6 +396,7 @@ body {
 
 .cents {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .icons {
@@ -392,8 +405,30 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-
-
+.rights{
+    background-color: #a2c6dd;
+    height: 92px;
+    font-family: "WorkMedium";
+color: #01222D ;
+font-size: 13px;
+    /* marg
+    in-bottom: 0; */
+}
+.rightP{
+    margin-bottom: 0;
+    line-height: 92px;
+}
+/* @media (min-width:2803.98px){
+    .wrapperT{
+        padding-left: 305px;
+    }
+  
+}
+@media (min-width:1230px){
+    .wrapperT{
+        margin-left: 10%;
+    }
+} */
 @media (max-width:575.98px) {
     .relief {
         margin-right: 0%;
@@ -458,5 +493,8 @@ body {
 
     .img-fluid.boardPic {
         max-width: 355px;
+    }
+    .hands{
+        margin-top: -450px;
     }
 }
