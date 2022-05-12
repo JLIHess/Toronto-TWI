@@ -346,7 +346,7 @@ body {
 } */
 .pic{
     padding-bottom: 10px;
-    max-width: 181px;
+    /* max-width: 181px; */
     margin-right: auto;
     margin-left: auto;
 
@@ -446,6 +446,11 @@ font-size: 13px;
         margin-left: 10%;
     }
 } */
+@media (min-width:576px){
+    .pic {
+        max-width: 181px;
+    }
+}
 @media (max-width:575.98px) {
     .cH1{
         font-size: 30px;
