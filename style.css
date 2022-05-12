@@ -79,6 +79,10 @@ body {
     font-family: "CrimsonPro";
     font-size: 40px;
 }
+.cH1{
+    /* font-weight: bold; */
+    font-size: 50px;
+}
 .cr{
     padding-top: 30px;
 }
