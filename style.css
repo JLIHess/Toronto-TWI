@@ -447,7 +447,7 @@ font-size: 13px;
     }
 
     .magButton {
-        width: 350px;
+        max-width: 250px;
     }
 
     .sideLine {
@@ -460,31 +460,34 @@ font-size: 13px;
     }
 
     .boldButton {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .arrow {
-        height: 24px;
+        /* height: 24px; */
+        height: 19px;
+        width: 103px;
     }
 
     .sBlueButton {
-        width: 350px;
+        width: 250px;
     }
 
     .lGreenButton {
-        width: 350px;
+        width: 250px;
+        /* font-size: 11p; */
     }
 
     .blueButton {
-        width: 350px;
+        width: 250px;
     }
 
     .orangeButton {
-        width: 350px;
+        width: 250px;
     }
 
     .pinkButton {
-        width: 350px;
+        width: 250px;
     }
 
     .topSpace {
