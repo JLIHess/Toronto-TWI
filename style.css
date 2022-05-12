@@ -434,11 +434,16 @@ font-size: 13px;
     }
 } */
 @media (max-width:575.98px) {
+    .cH1{
+        font-size: 30px;
+
+    }
     .relief {
         margin-right: 0%;
         margin-left: 0%;
         padding-left: 30px;
         padding-bottom: 60px;
+        padding-top: 136px;
     }
 
     .magButton {
@@ -499,6 +504,7 @@ font-size: 13px;
         max-width: 355px;
     }
     .hands{
-        margin-top: -450px;
+        /* margin-top: -450px; */
+        margin-top:-248px;
     }
 }
